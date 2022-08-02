@@ -20,48 +20,50 @@ namespace MultithreadEmpPayroll
 
 //With Thread Process The Employees details are not added as sequential manner.
 /*
- Employee Being Added :Eren
-Employee added : Eren
-Employee Being Added :Levi
-Employee added : Levi
-Employee Being Added :Mikasa
-Employee added : Mikasa
-Employee Being Added :Naruto
-Employee added : Naruto
-Employee Being Added :Sasuke
-Employee added : Sasuke
-Employee Being Added :Madara
-Employee added : Madara
-Employee Being Added :Luffy
-Employee added : Luffy
-Employee Being Added :Zorro
-Employee added : Zorro
-Employee Being Added :Nami
-Employee added : Nami
-Employee Being Added :Naruto
-Employee added : Naruto
-System.Collections.Generic.List`1[MultithreadEmpPayroll.EmpData]
-Duration Without thread: 00:00:00.0006645
-Employee Being Added :Mikasa
+
+ Standard Output: 
 Employee Being Added :Eren
-Employee added : Mikasa
-Employee added : Eren
-Employee Being Added :Naruto
-Employee added : Naruto
+Employee added : Eren ( Duration  : 00:00:00.0003938)
 Employee Being Added :Levi
-Employee added : Levi
-Employee Being Added :Sasuke
-Employee added : Sasuke
-Employee Being Added :Luffy
-Employee added : Luffy
-Employee Being Added :Zorro
-Employee Being Added :Madara
-Employee added : Zorro
-Employee Being Added :Nami
-Employee added : Madara
-Employee added : Nami
+Employee added : Levi ( Duration  : 00:00:00.0000007)
+Employee Being Added :Mikasa
+Employee added : Mikasa ( Duration  : 00:00:00.0000003)
 Employee Being Added :Naruto
-Employee added : Naruto
-17
-Duration With thread: 00:00:00.0006645
+Employee added : Naruto ( Duration  : 00:00:00.0000002)
+Employee Being Added :Sasuke
+Employee added : Sasuke ( Duration  : 00:00:00.0000009)
+Employee Being Added :Madara
+Employee added : Madara ( Duration  : 00:00:00.0000003)
+Employee Being Added :Luffy
+Employee added : Luffy ( Duration  : 00:00:00.0000002)
+Employee Being Added :Zorro
+Employee added : Zorro ( Duration  : 00:00:00.0000002)
+Employee Being Added :Nami
+Employee added : Nami ( Duration  : 00:00:00.0000005)
+Employee Being Added :Naruto
+Employee added : Naruto ( Duration  : 00:00:00.0000002)
+System.Collections.Generic.List`1[MultithreadEmpPayroll.EmpData]
+Duration Without thread: 00:00:00.0008998
+10
+Duration With thread: 00:00:00.0008998
+Employee Being Added :Luffy
+Employee added : Luffy ( Duration : 00:00:00.0003222)
+Employee Being Added :Eren
+Employee Being Added :Zorro
+Employee added : Zorro ( Duration : 00:00:00.0000012)
+Employee Being Added :Nami
+Employee added : Nami ( Duration : 00:00:00.0000003)
+Employee Being Added :Naruto
+Employee added : Eren ( Duration : 00:00:00.0003626)
+Employee added : Naruto ( Duration : 00:00:00.0000017)
+Employee Being Added :Levi
+Employee added : Levi ( Duration : 00:00:00.0003370)
+Employee Being Added :Naruto
+Employee added : Naruto ( Duration : 00:00:00.0003452)
+Employee Being Added :Mikasa
+Employee added : Mikasa ( Duration : 00:00:00.0003420)
+Employee Being Added :Sasuke
+Employee added : Sasuke ( Duration : 00:00:00.0004017)
+Employee Being Added :Madara
+Employee added : Madara ( Duration : 00:00:00.0004014)
  */
